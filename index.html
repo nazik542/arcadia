@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Arcadia</title>
+ 
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css"> 
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/script.js"></script>  
+	<script type="text/javascript" src="js/slider.js"></script>  
+	<script>
+	function play(){ 
+		document.getElementsByTagName("video")[0].setAttribute("controls","controls"); 
+	    document.getElementsByTagName("video")[0].play(); 
+		document.getElementById("overlay").style.visibility ="hidden"; 
+	} 
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<header id = "header">
+			<nav>
+				<input type="checkbox" id="check">
+				<label for="check" class="menu"> </label>
+				<ul>
+					<li><a href="#service">Service</a></li>
+					<li><a href="#shop">Pricing</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<p class="first_slog">We’ve got the special power</p>
+			<div class="line"></div>
+			<div class="slogan"><p>We make website</p></div>
+			<a href="#meet"><div class="scroll_down"></div></a>
+		</header>
+		<div id="meet">
+			<h1>Meet us</h1>
+			<div class="line"></div>
+			<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br/>
+			  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br/>
+			  excepturi sint occaecati cupiditate non provident.
+			</p>
+			<a href="#service"><div class="scroll_down"></div></a>
+		</div>
+		<div class="video">
+			<video src="video/Wildlife.mp4" poster="images/video_poster.jpg" ></video>
+			<div id="overlay">
+				<button onclick="play()"></button>
+			</div>
+		</div>
+		<div id="service">
+			<h1>Service</h1>
+			<div class="line"></div>
+			<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br/>
+			  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br/>
+			  excepturi sint occaecati cupiditate non provident.
+			</p>
+			<div class="inner">
+				<div class="box service_item1">
+					<h1>Branding</h1>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+				</div>
+				<div class="box service_item2">
+					<h1>Web development</h1>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+				</div>
+				<div class="box service_item3">
+					<h1>App design</h1>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+				</div>
+			</div>
+			<a href="#projects"><div class="scroll_down"></div></a>
+		</div>
+
+		<div id="shop">
+			<button>check our shop</button>
+		</div>
+
+		<div id="projects">
+			<h1>Our latest projects</h1>
+			<div class="line"></div>
+			<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br/>
+			  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br/>
+			  excepturi sint occaecati cupiditate non provident.
+			</p>
+ 			<div class="container">
+	 			<div class="project project1">
+	 				<div class="brand">
+						<h1>Branding</h1>
+						<p>Metalbrand</p>
+						<div class="line"></div>
+					</div>
+	 			</div>
+	 			<div class="project project2">
+	 				<div class="brand">
+						<h1>Branding</h1>
+						<p>Metalbrand</p>
+						<div class="line"></div>
+					</div>
+	 			</div>
+	 			<div class="project project3">
+	 				<div class="brand">
+						<h1>Branding</h1>
+						<p>Metalbrand</p>
+						<div class="line"></div>
+					</div>
+	 			</div>
+	 			<div class="project project4">
+	 				<div class="brand">
+						<h1>Branding</h1>
+						<p>Metalbrand</p>
+						<div class="line"></div>
+					</div>
+	 			</div>
+	 			<div class="project project5">
+	 				<div class="brand">
+						<h1>Branding</h1>
+						<p>Metalbrand</p>
+						<div class="line"></div>
+					</div>
+	 			</div> 
+ 			</div>
+			<button>More on behance</button>
+			<a href="#about"><div class="scroll_down"></div></a>
+		</div>
+		<div class="partners">
+			<h1>Our partners</h1>
+			<div class="line"></div>
+			<p>
+				<img src="images/adidas.png" alt="partner">
+				<img src="images/google.png" alt="partner">
+				<img src="images/samsung.png" alt="partner">
+				<img src="images/microsoft.png" alt="partner">
+			</p>
+		</div>
+		<div id="about">
+			<h1>About us</h1>
+			<div class="line"></div>
+			<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br/>
+			  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br/>
+			  excepturi sint occaecati cupiditate non provident.
+			</p>
+			<div class="team">
+				<div class="workers worker1">
+					<img src="images/worker1.jpg">
+					<p class="name">Mike</p>
+					<p class="position">CEO / Founder</p>
+					<div class="line"></div>
+				</div>
+				<div class="workers worker2">
+					<img src="images/worker2.jpg">
+					<p class="name">Taylor</p>
+					<p class="position">Graphic Designer</p>
+					<div class="line"></div>
+				</div>
+				<div class="workers worker3"> 
+					<img src="images/worker3.jpg"> 
+					<p class="name">James</p>
+					<p class="position">Copywriter</p>
+					<div class="line"></div>
+				</div>
+				<div class="workers hiring">
+					<p>We are hiring</p> 
+					<p class="plus">+</p>
+				</div>
+			</div>
+			<a href="#contact"><div class="scroll_down"></div></a>			
+		</div>
+
+		<div class="tweet">
+			<h1>Latest tweerts</h1>
+			<div class="line"></div> 
+			<div class="inner_tweet"> 
+		<div id="slider" >
+					<ul>
+						<li>
+							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+							<p class="author">Graig</p>
+						</li>
+						<li>
+							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+							<p class="author">Graig</p>
+						</li>
+						<li>
+							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+							<p class="author">Graig</p>
+						</li>
+						<li>
+							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+							<p class="author">Graig</p>
+						</li>
+					</ul>
+				</div> 
+				<ul id="pagination" class="pagination">
+			<li onclick="slideshow.pos(0)"></li>
+			<li onclick="slideshow.pos(1)"></li>
+			<li onclick="slideshow.pos(2)"></li>
+			<li onclick="slideshow.pos(3)"></li>
+		</ul>
+			</div>
+		</div>
+
+		<div id="contact"> 
+			<h1>Contact us</h1>
+			<div class="line"></div>
+			<div class="contacts">
+				<h1>Address</h1>
+				<p>908 New Hampshire Ave NW<br/> Washington, DC 20037<br/>(202) 463-5141<br/>Doris Cannon</p>
+				<a href="https://uk-ua.facebook.com"><img src="images/facebook.png" alt="social"></a>
+				<a href="https://twitter.com"><img src="images/twitter.png" alt="social"></a>
+				<a href="https://vimeo.com"><img src="images/vimeo.png" alt="social"></a>
+				<a href="https://www.behance.net"><img src="images/behance.png" alt="social"></a>
+			</div> 
+			<form action="mail.php">
+				<input type="text" placeholder="Name">
+				<input type="email" placeholder="Email">
+				<input type="tel" pattern="^\d+$"placeholder="Telephone">
+				<input type="text" placeholder="Subject">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+		<footer>
+			<p class="copyright">2014 © <a href="#header">Arcadia</a>. All Rights Reserve</p>
+			<p class="back">Back to top <a href="#header"><img src="images/back_to_top.png" alt="back"></a> </p>
+		</footer>
+	</div>
+	<script type="text/javascript">
+	var slideshow=new TINY.slider.slide('slideshow',{
+	id:'slider',
+	auto:4,
+	resume:false,
+	vertical:false,
+	navid:'pagination',
+	activeclass:'current',
+	position:0,
+	rewind:false,
+	elastic:true
+});
+</script>
+</body>
+</html>
