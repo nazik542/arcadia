@@ -60,6 +60,9 @@ button:focus {outline: none;}
 	margin: 0 auto;
 	margin-top: 45px;
 	background: url(../images/scroll_down.png) no-repeat center;
+	-webkit-transition: border 0.4s ease;
+	-moz-transition: border 0.4s ease;
+	-o-transition: border 0.4s ease;
 	transition: border 0.4s ease;
  }
  
@@ -213,6 +216,9 @@ video {
 	border: 1px solid #8E9297;
 	margin: 35px 20px 0;
 	padding: 200px 35px 0;
+	-webkit-transition: height 0.5s ease;
+	-moz-transition: height 0.5s ease;
+	-o-transition: height 0.5s ease;
 	transition: height 0.5s ease;
  }
  
@@ -262,6 +268,9 @@ video {
 		line-height: 50px;
 		color: #fff;
 		background: #282F35;
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-o-transition: all .5s ease;
 		transition: all .5s ease;
 	 }
  
@@ -325,6 +334,9 @@ video {
 	border: none;
 	background: #C59A6D;
 	margin-bottom: 65px;
+	-webkit-transition: background .5s ease;
+	-moz-transition: background .5s ease;
+	-o-transition: background .5s ease;
 	transition: background .5s ease;
  }
  
@@ -366,6 +378,9 @@ video {
 	margin: 100px 20px;
 	padding-top: 75px;
 	opacity: .5;
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
 	transition: opacity .5s ease;
  }
  
